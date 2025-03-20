@@ -12,8 +12,12 @@ print()
 
 # Gebruik onderstaande variabelen en de print-functie
 # en toon de volgende zin op het scherm: Albert Einstein zei ooit: 'Als je niks fout doet, dan kun je ook niks leren!'
-voornaam = "albert"
-achternaam = "einstein"
+voornaam = "albert".capitalize()
+achternaam = "einstein".capitalize()
 
 
-print()
+copy = ["O mamma mia, wat maak je toch heerlijke pizza's"]
+my_dict = {"voornaam": "albert".capitalize(), "achternaam": "einstein".capitalize()}
+quote = ["Als je niks fout doet, dan kun je ook niks leren!"] 
+print(my_dict["voornaam"], my_dict["achternaam"], "zei ooit:", quote[0])
+
