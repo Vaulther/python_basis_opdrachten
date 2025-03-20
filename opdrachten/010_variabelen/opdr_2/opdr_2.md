@@ -18,4 +18,3 @@ Zorg ervoor dat de tuple wordt geprint.
 
 
 
-
