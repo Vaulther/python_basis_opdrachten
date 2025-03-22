@@ -4,6 +4,9 @@
 
 # Hier komt je code...
 
-my_list = ...
+[my_string:= "Tinus gaat op zijn tandem naar de hottentottententoonstelling"]
 
-print()
+count = my_string.count("t")
+print(count)
+
+
