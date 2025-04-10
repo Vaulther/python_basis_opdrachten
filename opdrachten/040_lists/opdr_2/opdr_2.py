@@ -23,6 +23,6 @@ rivieren = list(rivier_info.keys())
 
 for rivier in rivieren:
     rivier_naam = rivier.capitalize()
-    land = rivier_info[rivier][2].capitalize()
+    land = rivier_info[rivier][1].capitalize()
     print(f"De Rivier {rivier_naam} stroomt onder andere door {land}")
 
