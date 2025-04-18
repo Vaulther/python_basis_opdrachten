@@ -6,4 +6,13 @@
 
 # Hier start de for-loop
 
-my_list = []
+numbers = []
+
+for i in range(3, 82, 3):
+    numbers.append(float(i))
+
+processed_numbers = [(num ** 2) / 3 for num in numbers]
+
+print(numbers)
+
+print(processed_numbers)
