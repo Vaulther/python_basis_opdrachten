@@ -1,0 +1,10 @@
+----
+voornaam: Dylan
+achternaam: Joost
+drank: Jagermeister
+eten: een quiche
+----
+voornaam: Tycho
+achternaam: Joost
+drank: Pepsi
+eten: snoep
